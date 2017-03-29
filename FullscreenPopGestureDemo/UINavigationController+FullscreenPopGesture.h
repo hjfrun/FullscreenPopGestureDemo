@@ -10,7 +10,7 @@
 
 @interface UINavigationController (FullscreenPopGesture)
 
-@property (nonatomic, strong, readonly) UIPanGestureRecognizer *hjf_fullscreenPopGesture;
+@property (nonatomic, strong, readonly) UIPanGestureRecognizer *hjf_fullscreenPopGestureRecognizer;
 
 @property (nonatomic, assign) BOOL hjf_viewControllerBasedNavigationBarAppearanceEnabled;
 
